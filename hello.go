@@ -11,5 +11,11 @@ func main() {
 	var lastName string
 	lastName = "wick"
 
-	fmt.Printf("Hello %s %s!\n", firstName, lastName);
+	fmt.Printf("Hello %s %s!\n\n", firstName, lastName);
+
+	// Variabel tanpa tipe data
+	p2FirstName := "John"
+	p2LastName := "Travolta"
+
+	fmt.Printf("Hello %s %s!\n\n", p2FirstName, p2LastName)
 }
