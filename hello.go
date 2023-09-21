@@ -5,9 +5,11 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, World!")
 
-	// Komentar satu baris
+	// Variabel dengan tipe data
+	var firstName string = "john"
 
-	/*
-		Komentar baris banyak
-	*/
+	var lastName string
+	lastName = "wick"
+
+	fmt.Printf("Hello %s %s!\n", firstName, lastName);
 }
